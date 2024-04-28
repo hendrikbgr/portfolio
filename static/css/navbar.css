@@ -1,0 +1,34 @@
+.navbar {
+    font-weight: bold; /* Makes text bold */
+    font-size: 1rem; /* Adjust the size as you see fit */
+}
+
+.navbar .nav-link {
+    color: var(--text-color); /* Use your defined text color variable */
+    text-transform: uppercase; /* Converts text to uppercase */
+    letter-spacing: 0.05em; /* Adjust letter spacing for design */
+}
+
+.navbar .nav-link:hover {
+    color: var(--primary-color); /* Change color on hover to your accent color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Additional styling to remove default nav styles */
+.navbar .nav-item + .nav-item {
+    margin-left: 1rem; /* Space between nav items */
+}
+
+/* Utility class to remove bullet points and padding from the nav list */
+nav {
+    list-style-type: none;
+    padding-left: 0;
+    background-color: unset;
+}
+
+.navbar>.container {
+    display: unset;
+    flex-wrap: unset;
+    align-items: unset;
+    justify-content: unset;
+}

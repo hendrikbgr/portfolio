@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='./css/index.css') }}">
+{% endblock %}
+
+{% block title %}Home - My Portfolio{% endblock %}
+
+{% block content %}
+<div class="hero-banner">
+    <div class="hero-banner__title" aria-hidden="true">Portfolio</div>
+    <img class="hero-banner__image" id="fadeImage" src="https://images.pexels.com/photos/730231/pexels-photo-730231.jpeg"/>
+    <h1 class="hero-banner__title hero-banner__stroked-title">Portfolio</h1>
+  </div>
+  
+  <div class="content text-center">
+    <p class="wip-text">Work in Progress</p>
+  </div>
+  
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='./js/index.js') }}""></script>
+{% endblock %}

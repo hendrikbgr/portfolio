@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--background-color); /* Use your color scheme */
+    color: var(--text-color);
+}
+
+.footer a.social-icon {
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer a.social-icon:hover, .footer a.footer-email:hover {
+    color: var(--accent-color); /* Change the color on hover */
+    text-decoration: none;
+}
+
+.footer p {
+    margin-top: 15px;
+}
+
+.footer a.footer-email {
+    color: var(--text-color); /* Same color as other text to start */
+    transition: color 0.3s ease;
+}
+
+.footer-social-links {
+    display: inline-grid;
+}
+
+/* You might want to add some responsiveness to the footer */
+@media (max-width: 768px) {
+    .footer a.social-icon {
+        display: block;
+    }
+}

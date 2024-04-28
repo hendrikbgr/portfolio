@@ -1,0 +1,46 @@
+/* Define color variables for easy theme management */
+:root {
+    --background-color: #121212;
+    --primary-color: #bb86fc;  /* Purple */
+    --secondary-color: #03dac6;  /* Teal */
+    --text-color: #e0e0e0;
+    --link-color: #8ab4f8;
+    --hover-color: #3700b3;
+}
+
+
+/* Navigation, Footer, and other components styling */
+nav, footer {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--hover-color);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+
+
+.footer {
+    flex-shrink: 0;
+}
+
+/* Add your existing footer styles here */
+
+/* Customize other components as needed */
