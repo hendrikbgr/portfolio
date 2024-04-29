@@ -8,6 +8,21 @@
     --hover-color: #3700b3;
 }
 
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    /* Additional responsive styling */
+}
 
 /* Navigation, Footer, and other components styling */
 nav, footer {

@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     image.src = images[Math.floor(Math.random() * images.length)];
 
     // Random rotation from -15 to +15 degrees
-    var rotationDegrees = Math.floor(Math.random() * 31) - 15; // Generates a number from -15 to +15
+    var rotationDegrees = Math.floor(Math.random() * 11) - 5; // Generates a number from -5 to +5
     image.style.transform = `rotate(${rotationDegrees}deg)`;
 
     // Add scroll event listener for fading effect
